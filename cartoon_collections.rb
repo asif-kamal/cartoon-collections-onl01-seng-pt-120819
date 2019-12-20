@@ -14,8 +14,7 @@ end
 
 def find_the_cheese(array)
    cheese_types = ["cheddar", "gouda", "camembert"]
-   new_array = []
    array.include?(cheese_types)
-   new_array <<
+   puts .detect{|i| i.odd?}
    
 end
